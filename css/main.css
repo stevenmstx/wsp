@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: muli, sans-serif;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+	padding:0;
+	margin:0;
+}
+
+h1 {
+	font-weight:200;
+}
+
+h2 {
+	font-weight:100;
+	color:#323232;
+}
+
+#wrapper {
+	width: 960px;
+	margin:0 auto;
+}
+
+#title {
+	text-align:center;
+	border:1px solid #CCC;
+	margin-bottom:20px;
+	padding:20px 0;
+}
+
+#main_section {
+	border:1px solid #CCC;
+	padding:20px 0;
+}
+
+#section {
+	overflow:hidden;
+	margin:20px 20px 30px 20px;
+	padding-bottom:15px;
+	border-bottom:1px dotted #B8B8B8;
+}
+
+#section h2 {
+	font-size:1.8em;
+	font-weight:100;
+}
+
+#section h3 {
+	display:block;
+	font-weight:200;
+	color:#FFF;
+	padding:8px 15px;
+	border-left:4px solid #FF9218;
+	background:#272727;
+	float:left;
+}
+
+#section h4 {
+	float:right;
+	width:70%;
+	text-align:left;
+	border-bottom:1px dotted #B8B8B8;
+	padding-bottom: 5px;
+	margin-bottom:14px;
+	font-size:1.2em;
+}
+
+#section h5 {
+	float:right;
+	width:70%;
+	text-align:left;
+	border-bottom:1px dotted #B8B8B8;
+	padding-bottom: 5px;
+	margin-bottom:14px;
+	font-size:0.9em;
+}
+
+#section h6 {
+	float:right;
+	width:70%;
+	text-align:left;
+	margin-bottom: 10px;
+	font-size:0.8em;
+}
+
+#section a {
+	color:#17AFF9;
+	text-decoration:none;
+}
+
+#section p {
+	float:right;
+	width:70%;
+	font-size:0.8em;
+}
+
+#section ul {
+	float:right;
+	width:68%;
+	font-size:0.7em;
+}
+
+#section .competitor h4 {
+	border:none;
+	margin-bottom:0px;
+}
