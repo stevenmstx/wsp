@@ -40,6 +40,10 @@ Copyright 2013, Josh Cope
 	   overflow:hidden;
    }
    
+   nav select {
+	   display:none;
+   }
+   
    nav ul {
 	   list-style:none;
 	   width:100%;
@@ -166,16 +170,45 @@ Copyright 2013, Josh Cope
    ========================================================================== */
 
 /* Tablet Portrait size to Base 996px */
-@media only screen and (min-width: 768px) and (max-width: 995px) {}
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+		article h2 {
+			font-size:1.2em;
+		}
+	}
 
 /* All Mobile Sizes */
-@media only screen and (max-width: 767px) {}
+@media only screen and (max-width: 767px) {
+		nav a {
+			padding:0.8em 0.5em;
+		}
+		
+		#promo {
+			display:none;
+		}
+		
+		#social {
+			display:none;
+		}
+		
+		#details {
+			display:none;		
+		}
+	}
 
 /* Mobile Landscape Size to Tablet Portrait */
 @media only screen and (min-width: 480px) and (max-width: 767px) {}
 
 /* Mobile Portrait Size to Mobile Landscape Size */
-@media only screen and (max-width: 479px) {}
+@media only screen and (max-width: 479px) {
+		nav ul {
+			display:none;
+		}
+		
+		nav select {
+			display:inline-block;
+			width:100%;
+		}
+	}
 
 
 /* =============================================================================
