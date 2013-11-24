@@ -84,10 +84,6 @@ Copyright 2013, Josh Cope
    Page Styles
    ========================================================================== */
    
-   section img {
-	   width:100%;
-   }
-   
    section h2 {
 	   color:#fefefe;
 	   border-bottom:#25b0f1 solid 1px;
@@ -163,6 +159,41 @@ Copyright 2013, Josh Cope
 	input.button:hover {
 		background:#212121;
 		color:#FF8922;
+	}
+	
+	.no_pad {
+		padding:0;
+	}
+	
+	.sidebar ul {
+		border-bottom:#25b0f1 dotted 1px;
+		padding-bottom:0.9em;
+	}
+	
+	.sidebar .lastpost {
+		border-bottom:none;
+	}
+	
+	.sidebar h3, p, a {
+		margin:0 0 0.2em 0;
+	}
+	
+	.sidebar h3 {
+		font-size:1.0em;
+		font-weight:bold;
+	}
+	
+	.sidebar a {
+		font-size:0.6em;
+	}
+	
+	.list1 li {
+		list-style-type:square;
+		font-size:0.75em;
+	}
+	
+	.headroom {
+		padding-top:0.6em;
 	}
 
 /* =============================================================================
